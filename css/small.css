@@ -1,0 +1,91 @@
+header {
+  display: grid;
+  grid-template-columns: 240px auto;
+  align-items: center;
+  background-color: #0f3c43;
+  border-radius: 20px;
+}
+
+img {
+  padding: 0.5em;
+  margin-left: 15px;
+  width: 200px;
+  margin-top: 5px;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  font-family: "IM Fell French Canon SC", serif;
+  font-size: 30px;
+}
+
+#content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2em;
+}
+
+.home-headline {
+  text-align: center;
+  grid-column: 1 / 6;
+  grid-row: 1 / 1;
+  font-size: 20px;
+  font-family: "Montserrat", "Lato", "open Sans";
+  text-shadow: 3px -3px 10px black;
+}
+
+ul {
+  text-align: left;
+  grid-column: 1 / 6;
+  grid-row: 2 / 5;
+  margin-top: -20px;
+  padding-left: 50px;
+  list-style: none;
+}
+
+.span_li {
+  position: relative;
+  font-size: 15px;
+  font-family: "Montserrat", "Lato", "open Sans";
+  font-weight: bold;
+}
+ul li {
+  padding-left: 50px;
+  padding: 7px 0px;
+}
+
+#last_paragraph {
+  color: #000000;
+  grid-column: 1 / 6;
+  grid-row: 5;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Montserrat", "Lato", "open Sans";
+  font-size: 20px;
+}
+
+footer {
+  display: grid;
+  background-color: #0f3c43;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: "Montserrat", "Lato", "open Sans";
+}
+
+#fst_footer_paragraph {
+  color: white;
+  text-align: center;
+}
+
+#sec_footer_paragraph {
+  color: #0ab6ff;
+  margin-top: -5px;
+  text-align: center;
+}
